@@ -55,7 +55,7 @@ EMAIL_PASSWORD=パスワード
 ### URLパラメータ
  - メールの送信を行うには`<URL>/mail/<message>`へアクセスする必要があります。
  - \<message\>以外はGETパラメータで指定します。
- - **太字**の場合は必須パラメータです。
+ - **太字**の場合は必須パラメータです。<br>
 | パラメータ名 | 説明 |
 | -- | -- |
 | **\<message\>** | メールの本文 |
@@ -67,7 +67,7 @@ EMAIL_PASSWORD=パスワード
 例：`<URL>/mail/test?destination=xxx@example.com&subject=test`
 
 ## 実行時パラメータ
- - ローカルのみでの設定です。
+ - ローカルのみでの設定です。<br>
 | 項目 | 説明 |
 | -- | -- |
 | -H<br>--host | ホスト名<br>LANに公開しない場合は`localhost`を指定してください<br>(デフォルト: `0.0.0.0`) |
