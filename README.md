@@ -53,25 +53,24 @@ EMAIL_PASSWORD=パスワード
  - ローカルの場合: `https://localhost[:<port>]`
 
 ### URLパラメータ
- - メールの送信を行うには`<URL>/mail/<message>`へアクセスする必要があります。
- - \<message\>以外はGETパラメータで指定します。
- - **太字**の場合は必須パラメータです。<br>
 | パラメータ名 | 説明 |
-| -- | -- |
+| :--: | -- |
 | **\<message\>** | メールの本文 |
 | **destination** | 送信先のメールアドレス |
 | destination_name | 宛先名<br>(デフォルト: 送信先のメールアドレス) |
 | from_name | 送信元の名前<br>(デフォルト: `Testing...`) |
 | subject | メールの題名<br>(デフォルト: 空欄) |
 
-例：`<URL>/mail/test?destination=xxx@example.com&subject=test`
+ - メールの送信を行うには`<URL>/mail/<message>`へアクセスする必要があります。
+ - \<message\>以外はGETパラメータで指定します。<br>
+ - **太字**の場合は必須パラメータです。<br>
+ - 例：`<URL>/mail/test?destination=xxx@example.com&subject=test`
 
 ## 実行時パラメータ
- - ローカルのみでの設定です。<br>
 | 項目 | 説明 |
-| -- | -- |
+| :--: | -- |
 | -H<br>--host | ホスト名<br>LANに公開しない場合は`localhost`を指定してください<br>(デフォルト: `0.0.0.0`) |
 | -p<br>--port | ポート番号<br>(デフォルト: `5000`) |
 | -d | Flaskをデバッグモードで起動します。<br>(フラグパラメータ) |
 
-例：`python main.py -H localhost -p 8000 -d`
+ - 例：`python main.py -H localhost -p 8000 -d`
