@@ -1,4 +1,6 @@
-# Flask Mail Send Test
+# Flask Mail Send
+[![GitHub issues open](https://img.shields.io/github/issues/Alma-field/flask-mail-send.svg?maxAge=2592000)](https://github.com/Alma-field/flask-mail-send/issues?q=is%3Aopen+is%3Aissue)
+[![GitHub issues close](https://img.shields.io/github/issues-closed-raw/Alma-field/flask-mail-send.svg?maxAge=2592000)](https://github.com/Alma-field/flask-mail-send/issues?q=is%3Aclose+is%3Aissue)
 
 これはHerokuを経由し、Flaskからメールを送信するテストを行う目的で作成されました。
 
