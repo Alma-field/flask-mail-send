@@ -5,7 +5,7 @@ from flask import Flask, request
 #各種設定
 from config import JSON_AS_ASCII, PORT, EMAIL_ADDRESS, EMAIL_PASSWORD
 
-from gmail import gmail
+from mail import gmail
 
 mail = gmail(EMAIL_ADDRESS, EMAIL_PASSWORD)
 
