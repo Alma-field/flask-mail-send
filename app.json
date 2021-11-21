@@ -1,5 +1,13 @@
 {
     "name": "Flask Mail Send Test",
     "description": "Test sending emails from Flask via Heroku.",
-    "repository": "https://github.com/Alma-field/flask-mail-send"
+    "repository": "https://github.com/Alma-field/flask-mail-send",
+    "env": {
+        "EMAIL_ADDRESS": {
+            "description": "Your Email Address(e.g. mail@example.com)"
+        },
+        "EMAIL_PASSWORD": {
+            "description": "Your Email Password"
+        }
+    }
 }
